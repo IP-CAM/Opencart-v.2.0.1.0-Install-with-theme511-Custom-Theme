@@ -10,7 +10,7 @@
 			closeClick	: false,
 			openEffect	: 'elastic',
 			closeEffect	: 'elastic',
-			
+
 		});
 	});
 </script>
@@ -47,6 +47,7 @@
 										<?php } else { ?>
 										<span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
 										<?php } ?>
+										<?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme511/parcelamento.php'; ?>
 										<?php if ($product['tax']) { ?>
 										<span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
 										<?php } ?>
@@ -68,7 +69,7 @@
 										<?php } ?>
 										<?php } ?>
 									</div>
-										
+
 								</div>
 								<div class="col-sm-12">
 									<div class="quickview_description description">
@@ -102,6 +103,7 @@
 				<?php } else { ?>
 				<span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
 				<?php } ?>
+				<?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme511/parcelamento.php'; ?>				
 				<?php if ($product['tax']) { ?>
 				<span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
 				<?php } ?>
@@ -111,7 +113,7 @@
 			<div class="cart-button">
 				<button class="btn btn-add" type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');">
 					<span><?php echo $button_cart; ?></span>
-					<i class="fa fa-shopping-cart"></i> 
+					<i class="fa fa-shopping-cart"></i>
 				</button>
 			</div>
 			</div>
