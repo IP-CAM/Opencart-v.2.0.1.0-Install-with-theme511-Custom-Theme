@@ -45,18 +45,20 @@
 				</ul>
 			</div>
 		</div>
-		
+
 	</div>
-	
+
   </div>
 	<div class="copyright">
 		<div class="container">
 			<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
-		</div> 
+		</div>
 	</div>
 </footer>
-<script src="catalog/view/theme/theme511/js/livesearch.js" type="text/javascript"></script>
+
 
 </div>
+
+<script src="https://lojavirtual.digital/lojavirtualfooter.js" type="text/javascript"></script>
 
 </body></html>
