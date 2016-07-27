@@ -14,3 +14,10 @@ $_['text_logout']        = 'Sair';
 $_['text_checkout']      = 'Finalizar pedido';
 $_['text_search']        = 'Busca';
 $_['text_all']           = 'Exibir';
+
+$_['text_information']  = 'Informação';
+$_['text_login1'] = 'Login';
+$_['text_register1'] = 'Cadastre-se';
+
+$_['text_search']        = 'Busca';
+$_['text_all']           = 'Ver todos';
